@@ -1,0 +1,264 @@
+I/O Docker results:
+ a. sysbench --test=fileio --file-test-mode=seqwr run
+ 	1.
+ 	File operations (disk): 0 reads/s, 1971.02 writes/s, 2524.89 fsync/s
+ 	Throughput: 0.00 MiB/s read, 30.8 MiB/s written
+ 	Number of events: 45036
+ 	total time: 10.0442s
+ 	Latency: min 0.01, avg 0.22, max 151.43, 95th percentile 0.17, sum 10005.54
+ 	
+ 	2. 
+ 	File operations (disk): 0 reads/s, 1194.03 writes/s, 1529.65 fsync/s
+ 	Throughput: 0.00 MiB/s read, 18.66 MiB/s written
+ 	Number of events: 27245
+ 	total time: 10.0485s
+ 	Latency: min 0.01, avg 0.37, max 181.87, 95th percentile 0.18, sum 10019.94
+ 	3.
+ 	File operations (disk): 0 reads/s, 16.32 writes/s, 24.23 fsync/s
+ 	Throughput: 0.00 MiB/s read, 0.25 MiB/s written
+ 	Number of events: 369
+ 	total time: 12.2540s
+ 	Latency: min 0.01, avg 27.09, max 1883.61, 95th percentile 65.65, sum 9997.79
+	4.
+	File operations (disk): 0 reads/s, 970.97 writes/s, 1243.83 fsync/s
+ 	Throughput: 0.00 MiB/s read, 15.17 MiB/s written
+ 	Number of events: 22226
+ 	total time: 10.0915s
+ 	Latency: min 0.01, avg 0.45, max 226.94, 95th percentile 0.18, sum 10066.92
+ 	5.
+ 	File operations (disk): 0 reads/s, 683.27 writes/s, 875.28 fsync/s
+ 	Throughput: 0.00 MiB/s read, 10.68 MiB/s written
+ 	Number of events: 15611
+ 	total time: 10.0969s
+ 	Latency: min 0.01, avg 0.64, max 163, 95th percentile 0.21, sum 10005.86
+ 	
+ b. sysbench --test=fileio --file-test-mode=seqwr --file-num=5 --file-block-size=64 run
+ 	1.
+ 	File operations (disk): 0 reads/s, 3937.86 writes/s, 196.99 fsync/s
+ 	Throughput: 0.00 MiB/s read, 0.24 MiB/s written
+ 	Number of events: 41366
+ 	total time: 10.0015s
+ 	Latency: min 0.00, avg 0.24, max 133.07, 95th percentile 0.03, sum 9977.04
+ 	2.
+ 	File operations (disk): 0 reads/s, 2744.49 writes/s, 137.42 fsync/s
+ 	Throughput: 0.00 MiB/s read, 0.17 MiB/s written
+ 	Number of events: 28977
+ 	total time: 10.0522s
+ 	Latency: min 0.00, avg 0.35, max 154.73, 95th percentile 0.03, sum 10033.89
+ 	3.
+ 	File operations (disk): 0 reads/s, 3763.01 writes/s, 188.25 fsync/s
+ 	Throughput: 0.00 MiB/s read, 0.23 MiB/s written
+ 	Number of events: 39581
+ 	total time: 10.0144s
+ 	Latency: min 0.00, avg 0.25, max 143.62, 95th percentile 0.03, sum 9990.88
+ 	4.
+ 	File operations (disk): 0 reads/s, 3131.42 writes/s, 156.77 fsync/s
+ 	Throughput: 0.00 MiB/s read, 0.41 MiB/s written
+ 	Number of events: 33177
+ 	total time: 10.0868
+ 	Latency: min 0.00, avg 0.30, max 144.32, 95th percentile 0.03, sum 10066.45
+	5.
+	File operations (disk): 0 reads/s, 85.52 writes/s, 4.37 fsync/s
+ 	Throughput: 0.00 MiB/s read, 0.11 MiB/s written
+ 	Number of events: 941
+ 	total time: 10.5194
+ 	Latency: min 0.00, avg 10.73, max 2373.42, 95th percentile 0.03, sum 10098.20
+ 	
+ 	
+ c. sysbench --test=fileio --file_test-mode=rndwr --file-num=10 --file-block-size=128 --file-io-mode=async run
+ 	1.
+ 	File operations (disk): 0 reads/s, 328.73 writes/s, 33.67 fsync/s
+ 	Throughput: 0.00 MiB/s read, 0.04 MiB/s written
+ 	Number of events: 3628
+ 	total time: 10.0348s
+ 	Latency: min 0.00, avg 2.76, max 223.89, 95th percentile 12.75, sum 10005.74
+ 	2.
+ 	File operations (disk): 0 reads/s, 326.38 writes/s, 33.53 fsync/s
+ 	Throughput: 0.00 MiB/s read, 0.12 MiB/s written
+ 	Number of events: 3629
+ 	total time: 10.1069
+ 	Latency: min 0.00, avg 2.76, max 233.89, 95th percentile 12.98, sum 10012.48
+ 	3.
+ 	File operations (disk): 0 reads/s, 6.70 writes/s, 1.14 fsync/s
+ 	Throughput: 0.00 MiB/s read, 0.21 MiB/s written
+ 	Number of events: 204
+ 	total time: 14.9234
+ 	Latency: min 0.00, avg 98.72, max 1837.75, 95th percentile 1304.21, sum 10563.41
+ 	4.
+ 	File operations (disk): 0 reads/s, 6.78 writes/s, 0.95 fsync/s
+ 	Throughput: 0.00 MiB/s read, 0.18 MiB/s written
+ 	Number of events: 104
+ 	total time: 14.7395
+ 	Latency: min 0.00, avg 102.79, max 4034.64, 95th percentile 0.04, sum 10689.96
+ 	5.
+ 	File operations (disk): 0 reads/s, 4.58 writes/s, 0.78 fsync/s
+ 	Throughput: 0.00 MiB/s read, 0.22 MiB/s written
+ 	Number of events: 110
+ 	total time: 21.8170
+ 	Latency: min 0.00, avg 97.36, max 1839.35, 95th percentile 1401.61, sum 10416.99
+ 	
+ d.  sysbench --test=fileio --file-test-mode=seqrewr --file-num=45 --file-block-size=1024 --file-io-mode=async run
+ 	1. 
+ 	File operations (disk): 0 reads/s, 3077.32 writes/s, 1385.19 fsync/s
+ 	Throughput: 0.00 MiB/s read, 3.01 MiB/s written
+ 	Number of events: 44619
+ 	total time: 10.0050s
+ 	Latency: min 0.00, avg 0.22, max 144.64, 95th percentile 0.17, sum 9973.36
+ 	2.
+ 	File operations (disk): 0 reads/s, 31.24 writes/s, 14.14 fsync/s
+ 	Throughput: 0.00 MiB/s read, 0.13 MiB/s written
+ 	Number of events: 536
+ 	total time: 12.7984
+ 	Latency: min 0.00, avg 18.86, max 1790.85, 95th percentile 59.99, sum 10107.26
+ 	3.
+ 	File operations (disk): 0 reads/s, 1029.33 writes/s, 466.40 fsync/s
+ 	Throughput: 0.00 MiB/s read, 1.21 MiB/s written
+ 	Number of events: 14922
+ 	total time: 10.0051
+ 	Latency: min 0.00, avg 0.67, max 1260.29, 95th percentile 0.18, sum 9990.69
+ 	4.
+ 	File operations (disk): 0 reads/s, 39.46 writes/s, 17.84 fsync/s
+ 	Throughput: 0.00 MiB/s read, 0.04 MiB/s written
+ 	Number of events: 681
+ 	total time: 12.6674
+ 	Latency: min 0.00, avg 15.81, max 1133.67, 95th percentile 61.08, 10765.92
+ 	5.
+ 	File operations (disk): 0 reads/s, 1088.09 writes/s, 489.74 fsync/s
+ 	Throughput: 0.00 MiB/s read, 1.06 MiB/s written
+ 	Number of events: 15761
+ 	total time: 10.0136s
+ 	Latency: min 0.00, avg 0.63, max 1393.36, 95th percentile 0.18, 9998.43
+ 	
+IO vm results:
+
+ a. sysbench --test=fileio --file-test-mode=seqwr run
+ 	1.
+ 	File operations (disk): 0 reads/s, 1113.66 writes/s, 1426.58 fsync/s
+ 	Throughput: 0.00 MiB/s read, 20.40 MiB/s written
+ 	Number of events: 25419
+ 	total time: 10.0544s
+ 	Latency: min 0.07, avg 0.39, max 183.43, 95th percentile 0.36, sum 9904.27
+ 	
+ 	2. 
+ 	File operations (disk): 0 reads/s, 712.68 writes/s, 912.93 fsync/s
+ 	Throughput: 0.00 MiB/s read, 11.14 MiB/s written
+ 	Number of events: 16295
+ 	total time: 10.0999s
+ 	Latency: min 0.07, avg 0.61, max 360.60, 95th percentile 0.35, sum 9920.64
+ 	
+ 	3.
+ 	File operations (disk): 0 reads/s, 767.79 writes/s, 984.16 fsync/s
+ 	Throughput: 0.00 MiB/s read, 0.12 MiB/s written
+ 	Number of events: 17442
+ 	total time: 10.0260s
+ 	Latency: min 0.07, avg 0.57, max 256.90, 95th percentile 0.36, sum 9992.49
+	4.
+	File operations (disk): 0 reads/s, 643.35 writes/s, 832.99 fsync/s
+ 	Throughput: 0.00 MiB/s read, 10.05 MiB/s written
+ 	Number of events: 14788
+ 	total time: 10.0932
+ 	Latency: min 0.07, avg 0.67, max 284.81, 95th percentile 0.36, sum 9910.85
+ 	5.
+ 	File operations (disk): 0 reads/s, 668.48 writes/s, 860.05 fsync/s
+ 	Throughput: 0.00 MiB/s read, 10.45 MiB/s written
+ 	Number of events: 15192
+ 	total time: 10.0200s
+ 	Latency: min 0.07, avg 0.65, max 343.59, 95th percentile 0.39, sum 9902.68
+ 	
+ b. sysbench --test=fileio --file-test-mode=seqwr --file-num=5 --file-block-size=64 run
+ 	1.
+ 	File operations (disk): 0 reads/s, 2867.73 writes/s, 143.49 fsync/s
+ 	Throughput: 0.00 MiB/s read, 0.18 MiB/s written
+ 	Number of events: 30341
+ 	total time: 10.0744s
+ 	Latency: min 0.01, avg 0.33, max 172.64, 95th percentile 0.27, sum 9927.38
+ 	2.
+ 	File operations (disk): 0 reads/s, 2344.04 writes/s, 117.30 fsync/s
+ 	Throughput: 0.00 MiB/s read, 0.14 MiB/s written
+ 	Number of events: 24671
+ 	total time: 10.0183s
+ 	Latency: min 0.01, avg 0.40, max 280.88, 95th percentile 0.27, sum 9884.18
+ 	3.
+ 	File operations (disk): 0 reads/s, 3060.31 writes/s, 153.12 fsync/s
+ 	Throughput: 0.00 MiB/s read, 0.19 MiB/s written
+ 	Number of events: 32231
+ 	total time: 10.0257s
+ 	Latency: min 0.01, avg 0.31, max 139.80, 95th percentile 0.25, sum 9846.46
+ 	4.
+ 	File operations (disk): 0 reads/s, 3008.56 writes/s, 150.53 fsync/s
+ 	Throughput: 0.00 MiB/s read, 0.18 MiB/s written
+ 	Number of events: 31706
+ 	total time: 10.0108s
+ 	Latency: min 0.01, avg 0.31, max 140.64, 95th percentile 0.26, sum 9843.53
+	5.
+	File operations (disk): 0 reads/s, 2669.45 writes/s, 133.57 fsync/s
+ 	Throughput: 0.00 MiB/s read, 0.16 MiB/s written
+ 	Number of events: 28871
+ 	total time: 10.2952
+ 	Latency: min 0.01, avg 0.35, max 383.90, 95th percentile 0.27, sum 10141.54
+ 	
+ 	
+ c. sysbench --test=fileio --file_test-mode=rndwr --file-num=10 --file-block-size=128 --file-io-mode=async run
+ 	1.
+ 	File operations (disk): 0 reads/s, 287.90 writes/s, 29.58 fsync/s
+ 	Throughput: 0.00 MiB/s read, 0.04 MiB/s written
+ 	Number of events: 3628
+ 	total time: 10.0671s
+ 	Latency: min 0.01, avg 3.12, max 219.36, 95th percentile 23.52, sum 9947.78
+ 	2.
+ 	File operations (disk): 0 reads/s, 207.00 writes/s, 21.46 fsync/s
+ 	Throughput: 0.00 MiB/s read, 0.03 MiB/s written
+ 	Number of events: 2332
+ 	total time: 10.2438
+ 	Latency: min 0.01, avg 4.27, max 432.82, 95th percentile 23.95, sum 9962.46
+ 	3.
+ 	File operations (disk): 0 reads/s, 171.30 writes/s, 17.23 fsync/s
+ 	Throughput: 0.00 MiB/s read, 0.02 MiB/s written
+ 	Number of events: 1960
+ 	total time: 10.4407
+ 	Latency: min 0.01, avg 5.08, max 270.59, 95th percentile 23.52, sum 9951.30
+ 	4.
+ 	File operations (disk): 0 reads/s, 188.25 writes/s, 19.42 fsync/s
+ 	Throughput: 0.00 MiB/s read, 0.02 MiB/s written
+ 	Number of events: 2086
+ 	total time: 10.0909s
+ 	Latency: min 0.01, avg 4.78, max 177.58, 95th percentile 25.28, sum 9970.56
+ 	5.
+ 	File operations (disk): 0 reads/s, 156.52 writes/s, 16.44 fsync/s
+ 	Throughput: 0.00 MiB/s read, 0.02 MiB/s written
+ 	Number of events: 1758
+ 	total time: 10.2154
+ 	Latency: min 0.01, avg 5.75, max 298.60, 95th percentile 24.38, sum 10110.87
+ 	
+ d.  sysbench --test=fileio --file-test-mode=seqrewr --file-num=45 --file-block-size=1024 --file-io-mode=async run
+ 	1. 
+ 	File operations (disk): 0 reads/s, 418.68 writes/s, 188.50 fsync/s
+ 	Throughput: 0.00 MiB/s read, 0.41 MiB/s written
+ 	Number of events: 6046
+ 	total time: 10.0275s
+ 	Latency: min 0.01, avg 1.65, max 449.49, 95th percentile 0.65, sum 9949.82
+ 	2.
+ 	File operations (disk): 0 reads/s, 1296.29 writes/s, 586.87 fsync/s
+ 	Throughput: 0.00 MiB/s read, 1.27 MiB/s written
+ 	Number of events: 18871
+ 	total time: 10.0422
+ 	Latency: min 0.01, avg 0.52, max 360.55, 95th percentile 0.45, sum 9893.86
+ 	3.
+ 	File operations (disk): 0 reads/s, 1491.20 writes/s, 671.14 fsync/s
+ 	Throughput: 0.00 MiB/s read, 1.46 MiB/s written
+ 	Number of events: 21996
+ 	total time: 10.1842
+ 	Latency: min 0.00, avg 0.45, max 277.31, 95th percentile 0.44, sum 10003.58
+ 	4.
+ 	File operations (disk): 0 reads/s, 1338.43 writes/s, 606.29 fsync/s
+ 	Throughput: 0.00 MiB/s read, 1.31 MiB/s written
+ 	Number of events: 19425
+ 	total time: 10.0092s
+ 	Latency: min 0.01, avg 0.51, max 180.22, 95th percentile 0.47, 9885.82
+ 	5.
+ 	File operations (disk): 0 reads/s, 1132.02 writes/s, 509.51 fsync/s
+ 	Throughput: 0.00 MiB/s read, 1.11 MiB/s written
+ 	Number of events: 16486
+ 	total time: 10.0674s
+ 	Latency: min 0.01, avg 0.60, max 286.60, 95th percentile 0.46, 9951.21
+

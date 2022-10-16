@@ -1,0 +1,216 @@
+	a. 1000
+		1. 
+		cpu speed: events per second 77710.34
+		total time: 10.0001s
+		total number of events: 777231
+		latency: min 0.01,avg 0.01, max 0.26, 95th percentile 0.1, sum 9863.98
+		2.
+		cpu speed: events per second 77616.20
+		total time: 10.0001s
+		total number of events: 776319
+		latency: min 0.01,avg 0.01, max 0.38, 95th percentile 0.1, sum 9861.80
+		3.
+		cpu speed: events per second 78033.46
+		total time: 10.0001s
+		total number of events: 780462
+		latency: min 0.01,avg 0.01, max 0.17, 95th percentile 0.01, sum 9859.75
+		4.
+		cpu speed: events per second 77566.58
+		total time: 10.0001s
+		total number of events: 775798
+		latency: min 0.01,avg 0.01, max 0.31, 95th percentile 0.01, sum 9856.78
+		5.
+		cpu speed: events per second 77573.86
+		total time: 10.0001s
+		total number of events: 775872
+		latency: min 0.01,avg 0.01, max 0.17, 95th percentile 0.01, sum 9857.27
+	b. 6000
+		1.
+		cpu speed: events per second 5961.17
+		total time: 10.0002s
+		total number of events: 59622
+		latency: min 0.16,avg 0.17, max 0.54, 95th percentile 0.21, sum 9979.89
+		2.
+		cpu speed: events per second 5979.90
+		total time: 10.0001s
+		total number of events: 59811
+		latency: min 0.16,avg 0.17, max 0.58, 95th percentile 0.21, sum 9980.04
+		3.
+		cpu speed: events per second 5947.38
+		total time: 10.0001s
+		total number of events: 59485
+		latency: min 0.16,avg 0.17, max 0.52, 95th percentile 0.21, sum 9980.5
+		4.
+		cpu speed: events per second 5935.80
+		total time: 10.0002s
+		total number of events: 59368
+		latency: min 0.16,avg 0.17, max 3.18, 95th percentile 0.21, sum 9979.46
+		5.
+		cpu speed: events per second 5847.38
+		total time: 10.0001s
+		total number of events: 58483
+		latency: min 0.16,avg 0.17, max 3.11, 95th percentile 0.21, sum 9980.03
+		
+	c. 11000
+		1.
+		cpu speed: events per second 2590.96
+		total time: 10.0005s
+		total number of events: 25929
+		latency: min 0.37,avg 0.39, max 7.95, 95th percentile 0.45, sum 9991.26
+		2.
+		cpu speed: events per second 2568.01
+		total time: 10.0002s
+		total number of events: 25685
+		latency: min 0.37,avg 0.39, max 7.09, 95th percentile 0.46, sum 9990.53
+		3.
+		cpu speed: events per second 2593.01
+		total time: 10.0006s
+		total number of events: 25936
+		latency: min 0.37,avg 0.39, max 7.09, 95th percentile 0.46, sum 9991.25
+		4.
+		cpu speed: events per second 2590.96
+		total time: 10.0002s
+		total number of events: 25914
+		latency: min 0.37,avg 0.39, max 6.92, 95th percentile 0.46, sum 9990.62
+		5.
+		cpu speed: events per second 2582.57
+		total time: 10.0001s
+		total number of events: 25830
+		latency: min 0.37,avg 0.39, max 0.91, 95th percentile 0.46, sum 9990.09
+	d. 16000
+		1.
+		cpu speed: events per second 1547.25
+		total time: 10.0007s
+		total number of events: 15476
+		latency: min 0.62,avg 0.65, max 10.68, 95th percentile 0.73, sum 9994.06
+		2.
+		cpu speed: events per second 1547
+		total time: 10.0004s
+		total number of events: 15473
+		latency: min 0.62,avg 0.65, max 1.17, 95th percentile 0.74, sum 9994.26
+		3.
+		cpu speed: events per second 1546.23
+		total time: 10.0002s
+		total number of events: 15465
+		latency: min 0.62,avg 0.65, max 1.15, 95th percentile 0.74, sum 9993.58
+		4.
+		cpu speed: events per second 1557.92
+		total time: 10.0002s
+		total number of events: 15582
+		latency: min 0.62,avg 0.64, max 1.17, 95th percentile 0.72, sum 9993.89		
+		5.
+		cpu speed: events per second 1537.54
+		total time: 10.0008s
+		total number of events: 15379
+		latency: min 0.62,avg 0.65, max 10.33, 95th percentile 0.75, sum 9993.94
+		
+CPU VM results:
+
+	a. 1000
+		1. 
+		cpu speed: events per second 15154.05
+		total time: 10.0001s
+		total number of events: 151609
+		latency: min 0.06,avg 0.06, max 29.33, 95th percentile 0.09, sum 9846.55
+		2.
+		cpu speed: events per second 14047.51
+		total time: 10.0012s
+		total number of events: 140540
+		latency: min 0.06,avg 0.07, max 2.21, 95th percentile 0.11, sum 9777.55
+		3.
+		cpu speed: events per second 14453.91
+		total time: 10.0022s
+		total number of events: 144620
+		latency: min 0.06,avg 0.07, max 7.58, 95th percentile 0.09, sum 9842.83
+		4.
+		cpu speed: events per second 13943.98
+		total time: 10.0011s
+		total number of events: 139508
+		latency: min 0.06,avg 0.07, max 7.85, 95th percentile 0.08, sum 9857.23
+		5.
+		cpu speed: events per second 14173.99
+		total time: 10.0012s
+		total number of events: 141815
+		latency: min 0.06,avg 0.07, max 6.74, 95th percentile 0.07, sum 9857.26
+	b. 6000
+		1.
+		cpu speed: events per second 1588.15
+		total time: 10.0012s
+		total number of events: 15889
+		latency: min 0.60,avg 0.63, max 6.06, 95th percentile 0.72, sum 9976.26
+		2.
+		cpu speed: events per second 1373.34
+		total time: 10.0013
+		total number of events: 13743
+		latency: min 0.60,avg 0.72, max 3.19, 95th percentile 0.89, sum 9946.49
+		3.
+		cpu speed: events per second 1535.81
+		total time: 10.00013s
+		total number of events: 15366
+		latency: min 0.60,avg 0.65, max 5.81, 95th percentile 0.72, sum 9977.62
+		4.
+		cpu speed: events per second 1436.94
+		total time: 10.0014s
+		total number of events: 14377
+		latency: min 0.63,avg 0.69, max 1.99, 95th percentile 0.73, sum 9977.66
+		5.
+		cpu speed: events per second 1437.52
+		total time: 10.0016s
+		total number of events: 14383
+		latency: min 0.63,avg 0.69, max 8.53, 95th percentile 0.73, sum 9976.47
+		
+	c. 11000
+		1.
+		cpu speed: events per second 702.76
+		total time: 10.0016s
+		total number of events: 7031
+		latency: min 1.33,avg 1.42, max 14.03, 95th percentile 14.03, sum 9980.83
+		2.
+		cpu speed: events per second 643.21
+		total time: 10.0020s
+		total number of events: 6436
+		latency: min 1.33,avg 1.55, max 4.30, 95th percentile 1.93, sum 9961.68
+		3.
+		cpu speed: events per second 672.22
+		total time: 10.0032s
+		total number of events: 6727
+		latency: min 1.33,avg 1.48, max 5.57, 95th percentile 1.67, sum 9982.46
+		4.
+		cpu speed: events per second 651.16
+		total time: 10.0015s
+		total number of events: 6515
+		latency: min 1.33,avg 1.53, max 4.50, 95th percentile 1.67, sum 9983.29
+		5.
+		cpu speed: events per second 653.59
+		total time: 10.0013s
+		total number of events: 6539
+		latency: min 1.37,avg 1.53, max 3.64, 95th percentile 1.64, sum 9983.31
+	d. 16000
+		1.
+		cpu speed: events per second 397.78
+		total time: 10.0016s
+		total number of events: 3980
+		latency: min 2.20,avg 2.51, max 7.47, 95th percentile 3.55, sum 9979.86
+		2.
+		cpu speed: events per second 382.25
+		total time: 10.0060s
+		total number of events: 3830
+		latency: min 2.20,avg 2.61, max 10.54, 95th percentile 2.97, sum 9979.34
+		3.
+		cpu speed: events per second 397.32
+		total time: 10.00018s
+		total number of events: 3977
+		latency: min 2.21,avg 2.51, max 63.99, 95th percentile 2.97, sum 9982.03
+		4.
+		cpu speed: events per second 392.27
+		total time: 10.0016s
+		total number of events: 3925
+		latency: min 2.20,avg 2.54, max 5.27, 95th percentile 3.02, sum 9982.10		
+		5.
+		cpu speed: events per second 359.42
+		total time: 10.0053s
+		total number of events: 3598
+		latency: min 2.20,avg 2.77, max 39.47, 95th percentile 4.74, sum 9979.99
+		
+
+
