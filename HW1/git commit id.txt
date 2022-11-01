@@ -1,0 +1,53 @@
+commit 36ae64b8d4e79f34ed7e3e694d4b963bc5423a8d
+Author: Juan Zuluaga <jzuluaga@scu.edu>
+Date:   Mon Oct 17 17:39:21 2022 -0700
+
+    final report updated
+
+commit 63d2fa76e324e045795fd77184d6201c8f992035
+Author: Juan Zuluaga <jzuluaga@scu.edu>
+Date:   Sun Oct 16 13:48:51 2022 -0700
+
+    Everything almost ready, just the report missing
+
+commit e6d8753f7c97ecf70fe7a0fb702cf7936740c23b
+Author: Juan Zuluaga <jzuluaga@scu.edu>
+Date:   Fri Oct 14 23:02:15 2022 -0700
+
+    updated version with new screenshots
+
+commit bd0d8c2937ad8aa5c403e0559318d3ad1acdbf9e
+Author: Juan Zuluaga <jzuluaga@scu.edu>
+Date:   Fri Oct 14 16:16:59 2022 -0700
+
+    version actualizada del script de cpu
+
+commit 1d6db903aaceb2bd49b4ce41b39ea8b23bee71a3
+Author: Juan Zuluaga <jzuluaga@scu.edu>
+Date:   Fri Oct 14 15:41:01 2022 -0700
+
+    version actualizada del script de io
+
+commit c8d2c535b8c00078432f128ac21107f2f047b9ae
+Author: Juan Zuluaga <jzuluaga@scu.edu>
+Date:   Fri Oct 14 12:17:07 2022 -0700
+
+    new scripts and screenshots up to the sysbench test
+
+commit 34b67b27b5d2e62f853f28c99fb8c0035221227c
+Author: Juan Zuluaga <jzuluaga@scu.edu>
+Date:   Sun Oct 9 13:40:14 2022 -0700
+
+    Docker installation screenshots
+
+commit 676389390f8b8d9284409920a9a1841d67397814
+Author: Juan Zuluaga <jzuluaga@scu.edu>
+Date:   Sat Oct 8 15:27:04 2022 -0700
+
+    initial scripts folder
+
+commit c0d98c748ac91166dc0b10a9875e9abb3a69ea53
+Author: Juan Zuluaga <jzuluaga@scu.edu>
+Date:   Sat Oct 8 15:17:38 2022 -0700
+
+    qemu installation and virtual machine configuration
