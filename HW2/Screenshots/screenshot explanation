@@ -1,0 +1,10 @@
+Handler modified interactive and request: We personalize the slack functions with author name and image
+Build Slack Interactive: Command to build the slack interactive
+Push slack interactive: Push the function to the docker hub and this process is the same for the request.
+Deploying interactive: We deploy the function and now it's ready to be invoked.
+Deploy request: We deploy the request function just like we did with interactive
+Invoke figlet: We invoke figlet with our own personalized message using the echo command
+Invoking slack interactive: We invoke interactive by passing a JSON valid input.
+Invoking request: We invoke request function by passing a JSON valid input.
+Running sudo journalctl -u faasd --lines 40: This command allows us to see a summarize of our faas architecture and what we've done
+so far, like a breakdown of all the actions we have made explained in more detailed. 
